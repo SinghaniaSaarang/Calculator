@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Qwitcher+Grypen&display=swap');
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg,#0a0a0a,#3a4452);
+}
+
+#calculator{
+    border: 1px solid #717377;
+    padding: 20px;
+    margin: 10px;
+    background: transparent;
+    border-radius: 16px;
+    box-shadow: 0px 3px 15px rgba(113,115,119,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70vh;
+    height: 70vh;
+}
+
+input{
+    width: 80%;
+    height: 9vh;
+    background: transparent;
+    margin: 2vh;
+    padding: 1vh;
+    border-radius: 5px;
+    border: none;
+    text-align: right;
+    box-shadow: 0px 3px 15px rgba(84 84 84,0.1);
+    font-size: 8vh;
+    cursor: pointer;
+}
+
+input:focus{
+    outline: none;
+}
+
+#calculator div{
+    width: 80%;
+    margin: 2vh 1vh;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    width: 11.5vh;
+    height: 5.8vh;
+    margin: 1vh 1.25vh;
+    border-radius: 50%;
+    border: none;
+    background: transparent;
+    color: #ffffff;
+    font-size: 5vh;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1);
+    cursor: pointer;
+}
+
+#equal{
+    background-color: orange;
+}
+
+.operator{
+    color: #6dee0a;
+}
